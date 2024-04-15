@@ -1,3 +1,16 @@
-title {
-    color: ;
+.title {
+color: rgb(0, 0, 0);
+font-size: 31px;
+text-decoration: none;
+}
+.title2{
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+.logo-web{
+    color:#2196F3;
+}
+.banner-button{
+    background-color: #2196F3;
 }
