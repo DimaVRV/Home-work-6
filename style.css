@@ -14,3 +14,21 @@ text-decoration: none;
 .banner-button{
     background-color: #2196F3;
 }
+footer {
+    background-color: #2F303A;
+    color: #fff;
+}
+ .footer {
+    color: #fff;
+}
+address > a {
+color: #FFFFFF99;
+}
+.text {
+    color: #757575;
+    font-size: 19;
+}
+.text2{
+color: #212121;
+font-size: 19;
+}
