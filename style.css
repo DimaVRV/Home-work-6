@@ -2,6 +2,7 @@
 color: rgb(0, 0, 0);
 font-size: 31px;
 text-decoration: none;
+font-weight: 700;
 }
 .title2{
     font-size: 15px;
@@ -27,14 +28,17 @@ color: #FFFFFF99;
 .text {
     color: #757575;
     font-size: 19;
+    font-weight: 400;
 }
 .text2{
 color: #212121;
 font-size: 19;
+font-weight: 700;
 }
 .black-button{
     font-size: 16px;
     color: #212121;
+    font-weight: 500;
 }
 ul h3{
     color: #212121;
@@ -48,3 +52,4 @@ ul p {
     src: url(statical/Roboto/Roboto-Medium.ttf); 
     src: url(statical/Roboto/Roboto-MediumItalic.ttf);
 }
+
