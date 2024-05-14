@@ -1,15 +1,11 @@
+body {
+    font-family: 'Roboto', sans-serif;
 .title {
 color: rgb(0, 0, 0);
 font-size: 26px;
 text-decoration: none;
 font-weight: 700;
 font-family: "Raleway", sans-serif;
-}
-.title2{
-    font-size: 15px;
-    color: rgb(0, 0, 0);
-    text-decoration: none;
-    font-weight: 500;
 }
 .logo-web{
     color:#2196F3;
@@ -27,6 +23,7 @@ footer {
 }
 address > a {
 color: #FFFFFF99;
+text-decoration: none;
 }
 .text {
     color: #757575;
@@ -42,18 +39,19 @@ font-weight: 700;
 color: #757575;
     font-size: 19;
     font-weight: 400;
+    line-height: 1.71;
 }
 .text3{
     color: #212121;
     font-size: 19;
     font-weight: 700;
-    line-height: 0.6;
+    
 }
 .black-button{
     font-size: 16px;
     color: #212121;
     font-weight: 500;
-    line-height: 0.65;
+    line-height: 1.62;
 }
 ul h3{
     color: #212121;
@@ -70,8 +68,6 @@ ul p {
     src: url(statical/Roboto/Roboto-MediumItalic.ttf);
     src: url(statical/Raleway/static/Raleway-Medium.ttf);
 }
-body {
-    font-family: 'Roboto', sans-serif;
 }
 .logo-footer{
 color: rgb(255, 255, 255);
@@ -81,11 +77,37 @@ color: rgb(255, 255, 255);
     font-family: "Raleway", sans-serif;
 }
 .text5{
-   line-height: 0.9; 
+   line-height: 2; 
 }
 .text6{
-    line-height: 0.75;
+    line-height: 1.87;
 }
+.header{
 
+}
+.header-nav{
 
+}
+.header-nav-list{
 
+}
+.header-nav-list-item-link {
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: 500;
+}
+h1{
+    font-size: 44px;
+        color: white;
+        line-height: 1.5;
+}
+.banner{
+    background-color: #2f303a" 
+}
+.page-title{
+   
+}
+.page-des{
+
+}
