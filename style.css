@@ -62,16 +62,11 @@ color: rgb(255, 255, 255);
 .text6{
     line-height: 1.87;
 }
-.header{
+
+.banner-list{
 
 }
-.header-nav{
-
-}
-.header-nav-list{
-
-}
-.header-nav-list-item-link {
+.banner-list-item-link {
     font-size: 15px;
     color: rgb(0, 0, 0);
     text-decoration: none;
@@ -91,15 +86,15 @@ h1{
 .page-list{
 
 }
-.page-list-link{
+.page_list-link{
 
 }
-.page-title{
+.page-features{
 color: #212121;
     font-size: 19;
     font-weight: 700;
 }
-.page-des{
+.page-about{
 color: #757575;
     font-size: 19;
     font-weight: 400;
@@ -111,31 +106,31 @@ color: #757575;
 font-size: 42px;
     font-weight: 700;
 }
-.studio-title-list{
+.studio_title-list{
 
 }
-.studio-title-list-item{
+.studio_title-list-item{
 
 }
-.porfolio{
+.team{
 
 }
-.porfolio-title{
+.team-title{
 font-size: 42px;
     font-weight: 700;
 }
-.porfolio-title-list{
+.team_title-list{
 
 }
-.porfolio-title-list-item{
+.team_title-list_item{
 
 }
-.porfolio-title-list-item-name{
+.team_title-list_item-features{
 color: #212121;
     font-size: 19;
     font-weight: 700;
 }
-.porfolio-title-list-item-nami{
+.team_title-list_item-about{
 color: #757575;
     font-size: 19;
     font-weight: 400;
@@ -155,12 +150,12 @@ color: #757575;
 .list-link{
 
 }
-.list-link-title{
+.list_link-title{
     color: #212121;
         font-size: 19;
         font-weight: 700;
 }
-.list-link-item{
+.list_link-item{
 color: #757575;
     font-size: 19;
     font-weight: 400;
