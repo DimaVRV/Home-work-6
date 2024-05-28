@@ -160,3 +160,33 @@ footer{
         line-height: 1.71;
         letter-spacing: 0.42px;
 }
+/* PORTFOLIO */
+/* project */
+.project-link{
+    background: #F5F4FA;
+}
+.project-button{
+    color: var(--text-color);   
+       text-align: center;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.62px;
+        letter-spacing: 0.48px;
+}
+/* card */
+.card-title{
+    color: var(--text-color);  
+        text-align: center;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.62px;
+        letter-spacing: 0.48px;
+}
+.card-text{
+    color: var(--additional-color);
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.87px;
+        letter-spacing: 0.48px;
+}
