@@ -27,21 +27,27 @@ body {
         line-height: 1.38;
         letter-spacing: 0.78px;
 
-}
-.logo-web{
-    color: var(--accent-color);   
+    }
+    .logo-web{
+        color: var(--accent-color);   
         font-family: "Raleway";
         font-size: 26px;
         font-weight: 700;
         line-height: 1.38;
         letter-spacing: 0.78px;
 }
+
 .nav-link{
     color: var(--text-color);
-        font-size: 14px;
-        font-weight: 500;
-        line-height: 1.14;
-        letter-spacing: 0.28px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.28px;
+}
+
+.nav-link:hover,
+.nav-link:focus{
+    color: var(--accent-color);
 }
 .header-link{
     color: var(--additional-color);    
@@ -50,7 +56,10 @@ body {
         line-height: 1.14;
         letter-spacing: 0.28px;
 }
-
+.header-link:hover,
+.header-link:focus{
+    color: var(--accent-color);
+}
 /* hero */
 .hero{
     background-color: var(--footer-background);
@@ -163,15 +172,20 @@ footer{
 /* PORTFOLIO */
 /* project */
 .project-link{
-    background: #F5F4FA;
+    background: var(--team-background);
 }
-.project-button{
+.projeсt-button{
     color: var(--text-color);   
-       text-align: center;
-        font-size: 16px;
-        font-weight: 500;
-        line-height: 1.62px;
-        letter-spacing: 0.48px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.62;
+    letter-spacing: 0.48px;
+}
+.projeсt-button:hover,
+.projeсt-button:focus{
+    background-color: var(--accent-color);
+    color: var(--main-background);
 }
 /* card */
 .card-title{
