@@ -25,9 +25,19 @@ body {
     margin-right: auto;
     padding-left: 15px;
     padding-right: 15px;
-}
-/* header.*/
-
+    
+    }
+    /* header.*/
+    .header-box{
+        width: 1170px;
+            outline: 1px solid green;
+            margin-left: auto;
+            margin-right: auto;
+            padding-left: 15px;
+            padding-right: 15px;
+            padding-top: 24px;
+    }
+    
 .header-logo{
     color: var(--logo-color);
         font-family: "Raleway";
