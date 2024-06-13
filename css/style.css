@@ -260,13 +260,23 @@ footer{
 /* PORTFOLIO */
 /* project */
 
-.p
+/* .project-box{
+
+}
 
 .project-link{
-    background: var(--team-background);
     display: flex;
-    margin-top: 94px;
+        gap: 8px;
+        align-items: center;
 }
+
+.project-list{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+ */
+
 .projeсt-button{
     color: var(--text-color);   
     text-align: center;
@@ -275,7 +285,8 @@ footer{
     line-height: 1.62;
     letter-spacing: 0.48px;
     padding: 6px 22px;
-    
+    margin-top: 94px;
+    background: var(--team-background);
    
 }
 .projeсt-button:hover,
