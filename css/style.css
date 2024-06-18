@@ -18,11 +18,12 @@
 body {
     font-family: 'Roboto', sans-serif;
 }
-header{
+/* header{
     padding-top: 24px;
     padding-bottom: 25px;
     
-}
+    
+} */
 .container{
     width: 1200px;
     outline: 1px solid green;
@@ -36,10 +37,13 @@ header{
     /* header.*/
 .header-box{
     display: flex;
-    align-items: center;
-
+    gap: 93px;
 }    
-   
+ .header-div{
+    display: flex;
+    gap: 344px;
+    align-items: center;
+ }  
 .header-logo{
     color: var(--logo-color);
         font-family:"Raleway";
@@ -47,6 +51,8 @@ header{
         font-weight: 700;
         line-height: 1.38;
         letter-spacing: 0.78px;
+        margin-top: 24px;
+        margin-bottom: 25px;
 
     }
     .logo-web{
@@ -103,9 +109,9 @@ header{
 }
 
 .hero-box{
-    display:;
-    justify-content: center;
+ align-items: center;
 }
+
 .hero-title{
     color:var(--main-background);
         text-align: center;
@@ -241,6 +247,8 @@ footer{
         font-weight: 700;
         line-height: 1.38;
         letter-spacing: 0.78px;
+        margin-top: 25px;
+        margin-bottom: 24px;
 }
 .address-link{
     color:var(--main-background);
@@ -258,24 +266,13 @@ footer{
 }
 
 /* PORTFOLIO */
-/* project */
-
-/* .project-box{
-
-}
-
-.project-link{
+.projeсt-list{
     display: flex;
-        gap: 8px;
-        align-items: center;
-}
-
-.project-list{
-    display: flex;
-    gap: 8px;
     align-items: center;
+    justify-content: center;
+    gap: 8px;
 }
- */
+
 
 .projeсt-button{
     color: var(--text-color);   
@@ -296,6 +293,12 @@ footer{
     padding: 6px 22px;
 }
 /* card */
+.card-list{
+    display: flex;
+    gap: 30px;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+}
 .card-item{
     margin-top: 50px;
     width: 370px;
