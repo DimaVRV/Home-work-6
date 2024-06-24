@@ -334,12 +334,10 @@ margin-bottom: 0;
 }
 .card-title {
   color: var(--text-color);
-
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
   line-height: 36px;
-  /* 200% */
   letter-spacing: 1.08px;
   margin-bottom: 4px;
   
