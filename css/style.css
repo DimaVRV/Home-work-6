@@ -172,9 +172,11 @@ header {
   display: flex;
   gap: 30px;
 }
+.work-item{
+  flex-basis: calc((100% - 60px ) / 3);
+}
 .work-img {
-  width: 370px;
-  height: 294px;
+  width: 100%;
 }
 /*team*/
 .team {
@@ -191,8 +193,11 @@ header {
   display: flex;
   gap: 30px;
 }
+.team-item{
+  flex-basis: calc((100% - 60px) / 3);
+}
 .team-img {
-  width: 270px;
+  width: 100%;
 }
 .team-title {
   color: var(--text-color);
