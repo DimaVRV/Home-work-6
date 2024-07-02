@@ -321,7 +321,7 @@ margin-bottom: 0;
   flex-wrap: wrap;
 }
 .card-item {
-  width: 370px;
+  flex-basis: calc((100% - 60px) / 3);
   border: 1px solid #eee;
   background: #fff;
 }
@@ -329,8 +329,7 @@ margin-bottom: 0;
    padding: 20px 24px;
 }
 .card-img {
-  width: 370px;
-
+  width: 100%;
 }
 .card-title {
   color: var(--text-color);
