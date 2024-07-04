@@ -321,14 +321,16 @@ margin-bottom: 0;
 }
 /* card */
 .card-list {
+  width: 1200px;
   display: flex;
   gap: 30px;
   flex-wrap: wrap;
 }
 .card-item {
-  flex-basis: calc((100% - 60px) / 3);
+  flex-basis: calc((100% - 60px)/ 3);
   border: 1px solid #eee;
   background: #fff;
+  
 }
 .card-box{
    padding: 20px 24px;
