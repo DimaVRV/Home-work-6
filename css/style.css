@@ -104,6 +104,11 @@ header {
   padding-top: 200px;
   padding-bottom: 200px;
   text-align: center;
+  background-image:linear-gradient(rgba(47, 48, 58, 0.40),rgba(47, 48, 58, 0.40)), url(../image/hero.jpg);
+  background-repeat: no-repeat;
+  background-position:center;
+  background-size: cover;
+  
 }
 
 .hero-title {
@@ -217,6 +222,9 @@ header {
 }
 .team-item{
   flex-basis: calc((100% - 60px) / 3);
+}
+.team-item:hover{
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px 0px rgba(0, 0, 0, 0.20);
 }
 .team-img {
   width: 100%;
@@ -352,7 +360,9 @@ margin-bottom: 0;
   flex-basis: calc((100% - 60px)/ 3);
   border: 1px solid #eee;
   background: #fff;
-  
+}
+.card-item:hover{
+  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.12), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 1px 4px 6px 0px rgba(0, 0, 0, 0.16);
 }
 .card-box{
    padding: 20px 24px;
