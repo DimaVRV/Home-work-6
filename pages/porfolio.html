@@ -73,11 +73,12 @@
 
         <ul class="card-list">
           <li class="card-item">
+            <div class="card-wrap">
             <img src="../image/texnocrak.jpg" alt="Веб-Сайт" class="card-img" />
-            <div class="card-box">
-            
+            <p class="card-desk">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
+          </div>
+            <div class="card-box">           
             <h3 class="card-title">Технокряк</h3>
-
             <p class="card-text">Веб-сайт</p>
             </div>
           </li>
@@ -156,23 +157,68 @@
     </main>
     <footer>
       <div class="container">
-      <a href="../index.html" class="logo-footer"
-        ><span class="footer-web">Web</span>Studio</a
-      >
-      <address class="address">
-        <a href="#" class="address-link">м. Київ, пр-т Лесі Українки, 26</a>
-        <ul class="footer-list">
-          <li class="footer-item">
-            <a href="mailto:info@devstudio.com" class="footer-link"
-              >info@devstudio.com</a
-            >
-          </li>
-          <li class="footer-item">
-            <a href="tel:901111111" class="footer-link">+380 90 111 11 11</a>
-          </li>
-        </ul>
-      </address>
+        <div class="footer-wraper">
+          <a href="../index.html" class="logo-footer"
+            ><span class="footer-web">Web</span>Studio</a
+          >
+          <address class="address">
+            <a href="#" class="address-link">м. Київ, пр-т Лесі Українки, 26</a>
+            <ul class="footer-list">
+              <li class="footer-item">
+                <a href="mailto:info@devstudio.com" class="footer-link"
+                  >info@devstudio.com</a
+                >
+              </li>
+              <li class="footer-item">
+                <a href="tel:901111111" class="footer-link"
+                  >+380 90 111 11 11</a
+                >
+              </li>
+            </ul>
+          </address>
+        </div>
+        <div class="footer-div">
+          <h3 class="footer-caption">приєднуйтесь</h3>
+          <ul class="team-imegs">
+            <li class="imegs-item">
+              <a href="#" class="footer-social"
+                ><svg class="imegs-img">
+                  <use href="../image/symbol-defs.svg#icon-instagram"></use></svg
+              ></a>
+            </li>
+            <li class="imegs-item">
+              <a href="#" class="footer-social"
+                ><svg class="imegs-img">
+                  <use href="../image/symbol-defs.svg#icon-twitter"></use></svg
+              ></a>
+            </li>
+            <li class="imegs-item">
+              <a href="#" class="footer-social"
+                ><svg class="imegs-img">
+                  <use href="../image/symbol-defs.svg#icon-facebook"></use></svg
+              ></a>
+            </li>
+            <li class="imegs-item">
+              <a href="#" class="footer-social"
+                ><svg class="imegs-img">
+                  <use href="../image/symbol-defs.svg#icon-linkedin"></use></svg
+              ></a>
+            </li>
+          </ul>
+        </div>
+      
+      <div class="footer-wrap">
+        <h3 class="footer-subtible">Підпишіться на розсилку</h3>
+        <form class="footer-form">
+          <input type="text" placeholder="E-mail" class="footer-input" required />
+          <button type="submit" class="footer-btn">Підписатися
+            <svg class="footer-svg">
+              <use href="../image/symbol-defs.svg#icon-icon-send"></use>
+            </svg>
+          </button>
+        </form>
       </div>
+    </div>
     </footer>
   </body>
 </html>
