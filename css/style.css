@@ -92,6 +92,7 @@ header {
   display: flex;
   gap: 50px;
 }
+
 .header-link {
   color: var(--additional-color);
   font-size: 14px;
@@ -102,7 +103,20 @@ header {
 .header-link:hover,
 .header-link:focus {
   color: var(--accent-color);
+  .header-svg{
+    fill: var(--accent-color);
+  }
 }
+
+
+
+.header-svg{
+  width: 16px;
+  height: 12px;
+  margin-right: 10px;
+  fill: var(--additional-color);
+}
+
 /* hero */
 .hero {
   background-color: var(--footer-background);
@@ -211,7 +225,17 @@ header {
 }
 .work-item {
   flex-basis: calc((100% - 60px) / 3);
+
 }
+.work-box{
+  position: relative;
+}
+
+.work-desk{
+  position: absolute;
+}
+
+
 .work-img {
   width: 100%;
 }
@@ -510,7 +534,7 @@ fill: #FFF;
 
 
 
-/* PORTFOLIO */
+/*                 PORTFOLIO                 */
 .projeсt {
   padding-top: 94px;
   padding-bottom: 94px;
@@ -554,12 +578,13 @@ fill: #FFF;
   background: #fff;
 }
 .card-item:hover {
-  .card-desk{
-    opacity: 1;
-  }
+  
   box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.12),
     0px 4px 4px 0px rgba(0, 0, 0, 0.06), 1px 4px 6px 0px rgba(0, 0, 0, 0.16);
-}
+    .card-desk{
+      opacity: 1;
+    }
+  }
 
 .card-wrap{
   position: relative;
