@@ -61,7 +61,7 @@
       </div>
     </header>
     <main>
-      <section class="hero">
+      <section class="hero " data-modal-open>
         <div class="container">
           <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
           <button type="button" class="hero-button">Замовити послугу</button>
@@ -420,10 +420,46 @@
       </div>
     </div>
     </footer>
-    <div class="backdrop">
+    <div class="backdrop is-hidden" data-modal>
       <div class="modal">
-        
+        <form class="modal-form">
+          <h2 class="modal-title">Залиште свої дані, ми вам передзвонимо</h2>
+          <label for="name" class="modal-sigma">Ім'я</label>
+          <div class="modal-box">
+          <input type="text" id="name" class="modal-input">
+          <svg class="modal-svg">
+            <use href="./image/symbol-defs.svg#icon-user"></use>
+          </svg></div>
+          <label for="phone" class="modal-sigma">Телефон</label>
+          <div class="modal-box">
+          <input type="tel" id="phone" class="modal-input">
+          <svg class="modal-svg">
+            <use href="./image/symbol-defs.svg#icon-phone"></use>
+          </svg></div>
+          <label for="mail" class="modal-sigma">Пошта</label>
+          <div class="modal-box">
+          <input type="email" id="mail" class="modal-input">
+          <svg class="modal-svg">
+            <use href="./image/symbol-defs.svg#icon-mail"></use>
+          </svg></div>
+
+          <label for="com"  class="modal-sigma">Коментар</label>
+          <textarea name="" id="com" class="modal-coment" placeholder="Введіть текст"></textarea>
+          <label for="" class="modal-check">
+            <input type="checkbox" class="check-input">
+            <Span class="modal-span"> Погоджуюся з розсилкою та приймаю </Span><a href="#" class="modal-link">Умови договору
+            </label></a>
+            <button class="modal-button" type="submit">Відправити</button>
+            
+        </form>
+        <button class="modal-close"  data-modal-close><svg class="close-svg">
+          <use href="./image/symbol-defs.svg#icon-cross"></use>
+        </svg></button>
       </div>
     </div>
+
+
+
+    <script src="./js/modal.js"></script>
   </body>
 </html>
