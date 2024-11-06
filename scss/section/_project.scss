@@ -1,0 +1,30 @@
+.projeсt {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+  .projeсt-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    margin-bottom: 50px;
+  }
+  
+  .projeсt-button {
+    color: var(--text-color);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.62;
+    letter-spacing: 0.48px;
+    padding: 6px 22px;
+    background: var(--team-background);
+    border-radius: 4px;
+    border: transparent;
+  }
+  .projeсt-button:hover,
+  .projeсt-button:focus {
+    background-color: var(--accent-color);
+    color: var(--main-background);
+    box-shadow: 0px 3px 1px 0px rgba(0, 0, 0, 0.10), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 2px 2px 0px rgba(0, 0, 0, 0.12);
+  }
