@@ -92,6 +92,7 @@ header {
 
 .nav-link:hover,
 .nav-link:focus {
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   color: var(--accent-color);
 }
 
@@ -101,6 +102,7 @@ header {
 
 .active {
   color: var(--accent-color);
+  transition: width 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .active::after {
@@ -125,6 +127,10 @@ header {
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.28px;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.header-link .header-svg {
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-link:hover,
@@ -578,6 +584,10 @@ footer .container {
 
 .modal-box {
   position: relative;
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.modal-box .modal-svg {
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-input {
@@ -707,58 +717,6 @@ footer .container {
   box-shadow: 0px 3px 1px 0px rgba(0, 0, 0, 0.1), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 2px 2px 0px rgba(0, 0, 0, 0.12);
 }
 
-.client {
-  padding-bottom: 94px;
-}
-
-.client-title {
-  display: flex;
-  margin-top: 94px;
-  justify-content: center;
-  color: #212121;
-  text-align: center;
-  font-family: "Roboto";
-  font-size: 36px;
-  margin-bottom: 50px;
-  font-weight: 700;
-  line-height: normal;
-  letter-spacing: 1.08px;
-}
-
-.client-list {
-  display: flex;
-  gap: 30px;
-}
-
-.client-item {
-  width: 170px;
-  height: 92px;
-  border-radius: 4px;
-  border: 1px solid #AFB1B8;
-}
-
-.client-item:hover {
-  border: 1px solid #2196F3;
-}
-.client-item:hover .client-img {
-  fill: #2196f3;
-}
-
-.client-link {
-  display: flex;
-  width: 170px;
-  height: 92px;
-  padding: 8.7px 10.564px 10.677px 11px;
-  justify-content: center;
-  align-items: center;
-}
-
-.client-img {
-  fill: #AFB1B8;
-  width: 106px;
-  height: 60px;
-}
-
 .card-list {
   width: 1200px;
   display: flex;
@@ -770,20 +728,25 @@ footer .container {
   flex-basis: calc((100% - 60px) / 3);
   border: 1px solid #eee;
   background: #fff;
+  transform: translateY(-20px);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .card-item:hover {
   box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.12), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 1px 4px 6px 0px rgba(0, 0, 0, 0.16);
 }
 .card-item:hover .card-desk {
+  transform: translateY(0);
   opacity: 1;
 }
 
 .card-wrap {
   position: relative;
+  overflow: hidden;
 }
 
 .card-desk {
+  transform: translateY(100%);
   width: 100%;
   height: 100%;
   background: rgba(33, 150, 243, 0.9);
@@ -798,6 +761,7 @@ footer .container {
   padding: 63px 24px;
   opacity: 0;
   overflow: hidden;
+  transition: transform 250ms cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
 .card-box {
@@ -824,4 +788,60 @@ footer .container {
   font-weight: 400;
   line-height: 30px;
   letter-spacing: 0.48px;
+}
+
+.client {
+  padding-bottom: 94px;
+}
+
+.client-title {
+  display: flex;
+  margin-top: 94px;
+  justify-content: center;
+  color: #212121;
+  text-align: center;
+  font-family: "Roboto";
+  font-size: 36px;
+  margin-bottom: 50px;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.08px;
+}
+
+.client-list {
+  display: flex;
+  gap: 30px;
+}
+
+.client-item {
+  width: 170px;
+  height: 92px;
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  border-radius: 4px;
+  border: 1px solid #AFB1B8;
+}
+.client-item .client-img {
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.client-item:hover {
+  border: 1px solid #2196F3;
+}
+.client-item:hover .client-img {
+  fill: #2196f3;
+}
+
+.client-link {
+  display: flex;
+  width: 170px;
+  height: 92px;
+  padding: 8.7px 10.564px 10.677px 11px;
+  justify-content: center;
+  align-items: center;
+}
+
+.client-img {
+  fill: #AFB1B8;
+  width: 106px;
+  height: 60px;
 }/*# sourceMappingURL=main.css.map */
