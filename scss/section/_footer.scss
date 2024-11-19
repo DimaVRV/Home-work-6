@@ -73,17 +73,20 @@
     margin-bottom: 20px;
     }
     
-    
-    &__social{
-      width: 44px;
-      height: 44px;
+
+
+
+
+    &__employees{
       display: flex;
-     align-items: center;
-     background-color: $footer-namber;
-    border-radius: 50%;
+      gap: 10px;
+      text-align: center;
       justify-content: center;
     }
+
+
     
+   
     
     &__wrap{
       margin-left: auto;
@@ -143,6 +146,55 @@
 
   }
   
+
+  .employees{
+    &__link{     
+      width: 44px;
+      height: 44px;
+  
+  
+      &:focus,
+       &:hover{
+       .employees__social{
+        background-color: $accent-color;
+       }
+       
+         .employees__svg{
+           fill: $main-background;
+        }
+      
+        
+       }
+      }
+  
+  
+  
+  
+    &__social{
+      transition: background-color  250ms cubic-bezier(0.4, 0, 0.2, 1);
+      width: 44px;
+      height: 44px;
+      display: flex;
+     align-items: center;
+     background-color:rgba(255, 255, 255, 0.10); ;
+    border-radius: 50%;
+      justify-content: center;
+    }
+  
+    &__svg{
+      fill:  $main-background;
+      width: 20px;
+    height: 20px;
+    
+    }
+    
+  
+  
+  }
+  
+   
+
+
   .address {
     margin-top: 20px;
     font-style: normal;
@@ -157,6 +209,7 @@
     
   }
   
+
 
 
 
