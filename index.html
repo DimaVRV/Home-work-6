@@ -20,39 +20,39 @@
 <link rel="stylesheet" href="./scss/main.css">
   </head>
   <body>
-    <header>
-      <div class="container header-box">
-        <a href="../index.html" class="header-logo"
-          ><span class="logo-web">Web</span>Studio</a
+    <header class="header">
+      <div class="container header__box">
+        <a href="./index.html" class="header__logo"
+          ><span class="header__web">Web</span>Studio</a
         >
 
-        <nav class="banner-nav">
-          <ul class="nav-list">
-            <li class="nav-item">
-              <a href="../index.html" class="nav-link active">Студія</a>
+        <nav class="nav">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="./index.html" class="nav__link active">Студія</a>
             </li>
-            <li class="nav-item">
-              <a href="../pages/porfolio.html" class="nav-link"
+            <li class="nav__item">
+              <a href="./pages/porfolio.html" class="nav__link"
                 >Портфоліо</a>
             </li>
-            <li class="nav-item">
-              <a href="#Contacts" class="nav-link">Контакти</a>
+            <li class="nav__item">
+              <a href="#Contacts" class="nav__link">Контакти</a>
             </li>
           </ul>
         </nav>
-        <ul class="header-list">
-          <li class="header-item">
+        <ul class="header__list">
+          <li class="header__item">
             
-            <a href="mailto:info@devstudio.com" class="header-link"
+            <a href="mailto:info@devstudio.com" class="header__link"
               >
-              <svg class="header-svg">
+              <svg class="header__svg">
                 <use href="./image/symbol-defs.svg#icon-envelope"></use>
               </svg> info@devstudio.com</a
             >
           </li>
-          <li class="header-item">
+          <li class="header__item">
            
-            <a href="tel:901111111" class="header-link"> <svg class="header-svg" style="width: 10px; height: 16px;">
+            <a href="tel:901111111" class="header__link"> <svg class="header__svg" style="width: 10px; height: 16px;">
               <use href="./image/symbol-defs.svg#icon-smartphone"></use>
             </svg> +380 90 111 11 11</a>
           </li>
@@ -62,8 +62,8 @@
     <main>
       <section class="hero">
         <div class="container">
-          <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
-          <button type="button" class="hero-button " data-modal-open>Замовити послугу</button>
+          <h1 class="hero__title">Ефективні рішення для вашого бізнесу</h1>
+          <button type="button" class="hero__button " data-modal-open>Замовити послугу</button>
         </div>
       </section>
       <section class="advantages">
@@ -421,37 +421,37 @@
     </footer>
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
-        <form class="modal-form">
-          <h2 class="modal-title">Залиште свої дані, ми вам передзвонимо</h2>
-          <label for="name" class="modal-sigma">Ім'я</label>
-          <div class="modal-box">
-          <input type="text" id="name" class="modal-input">
-          <svg class="modal-svg">
+        <form class="modal__form">
+          <h2 class="modal__title">Залиште свої дані, ми вам передзвонимо</h2>
+          <label for="name" class="modal__sigma">Ім'я</label>
+          <div class="modal__box">
+          <input type="text" id="name" class="modal__input">
+          <svg class="modal__svg">
             <use href="./image/symbol-defs.svg#icon-user"></use>
           </svg></div>
-          <label for="phone" class="modal-sigma">Телефон</label>
-          <div class="modal-box">
-          <input type="tel" id="phone" class="modal-input">
-          <svg class="modal-svg">
+          <label for="phone" class="modal__sigma">Телефон</label>
+          <div class="modal__box">
+          <input type="tel" id="phone" class="modal__input">
+          <svg class="modal__svg">
             <use href="./image/symbol-defs.svg#icon-phone"></use>
           </svg></div>
-          <label for="mail" class="modal-sigma">Пошта</label>
-          <div class="modal-box">
-          <input type="email" id="mail" class="modal-input">
-          <svg class="modal-svg">
+          <label for="mail" class="modal__sigma">Пошта</label>
+          <div class="modal__box">
+          <input type="email" id="mail" class="modal__input">
+          <svg class="modal__svg">
             <use href="./image/symbol-defs.svg#icon-mail"></use>
           </svg></div>
 
-          <label for="com"  class="modal-sigma">Коментар</label>
-          <textarea name="" id="com" class="modal-coment" placeholder="Введіть текст"></textarea>
-          <label for="" class="modal-check">
+          <label for="com"  class="modal__sigma">Коментар</label>
+          <textarea name="" id="com" class="modal__coment" placeholder="Введіть текст"></textarea>
+          <label for="" class="modal__check">
             <input type="checkbox" class="check-input">
-            <Span class="modal-span"> Погоджуюся з розсилкою та приймаю </Span><a href="#" class="modal-link">Умови договору
+            <Span class="modal__span"> Погоджуюся з розсилкою та приймаю </Span><a href="#" class="modal__link">Умови договору
             </label></a>
-            <button class="modal-button" type="submit">Відправити</button>
+            <button class="modal__button" type="submit">Відправити</button>
             
         </form>
-        <button class="modal-close"  data-modal-close><svg class="close-svg">
+        <button class="modal__close"  data-modal-close><svg class="close__svg">
           <use href="./image/symbol-defs.svg#icon-cross"></use>
         </svg></button>
       </div>

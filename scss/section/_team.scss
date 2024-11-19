@@ -1,11 +1,11 @@
 .team {
-    background-color: var(--team-background);
+    background-color: $team-background;
     padding-bottom: 94px;
     padding-top: 94px;
 
     &__title {
       margin-bottom: 50px;
-      color: var(--text-color);
+      color: $text-color;
       text-align: center;
       font-size: 36px;
       font-weight: 700;
@@ -30,12 +30,12 @@
 
     &__box {
       border-radius: 0px 0px 4px 4px;
-      background: #fff;
+      background: $main-background;
       padding-top: 30px;
       padding-bottom: 30px;
     }
     &__caption {
-      color: var(--text-color);
+      color: $text-color;
       text-align: center;
       font-size: 16px;
       font-weight: 500;
@@ -44,7 +44,7 @@
       margin-bottom: 1px;
     }
     &__desc {
-      color: var(--additional-color);
+      color: $additional-color;
       text-align: center;
       font-size: 16px;
       font-weight: 400;
@@ -76,23 +76,25 @@
     align-items: center;
     justify-content: center;
     border-radius: 75%;
+    transition: background-color  250ms cubic-bezier(0.4, 0, 0.2, 1);
+
     }
 
 
     
     
     &__item:hover{
-      background-color: #2196F3;    
+      background-color: $accent-color;    
       border-radius: 75%;
       .imegs__img{
-        fill: #fff;
+        fill: $main-background;
       }
     }
 
   
 
     &__img{
-      fill: #AFB1B8;
+      fill:  $img-fill;
       width: 20px;
     height: 20px;
     
