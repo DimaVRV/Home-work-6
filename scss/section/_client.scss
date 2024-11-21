@@ -1,3 +1,6 @@
+
+
+
 .client{
     padding-bottom: 94px;
 
@@ -35,12 +38,8 @@
 
 
 
-    &__item:hover{
-      border:  1px solid #2196F3;
-    .client__img{
-      fill: #2196f3;
-    }
-    }
+   
+    
     
     &__link{
       display: flex;
@@ -50,6 +49,14 @@
     padding: 8.7px 10.564px 10.677px 11px;
     justify-content: center;
     align-items: center;
+    
+    
+    &:hover,
+    &:focus{
+      border:  1px solid #2196F3;
+    .client__img{
+      fill: #2196f3;
+    }}
     }
     
     &__img{

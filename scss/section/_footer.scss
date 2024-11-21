@@ -1,6 +1,6 @@
 .footer {
 
-
+  
 
 
 
@@ -26,16 +26,14 @@
     &__logo {
       color: $main-background;
       font-family: "Raleway";
-      font-size: 26px;
-      font-weight: 700;
+       @extend %font;
       line-height: 1.38;
       letter-spacing: 0.78px;
     }
     &__web {
       color: $accent-color;
       font-family: "Raleway";
-      font-size: 26px;
-      font-weight: 700;
+      @extend %font;
       line-height: 1.38;
       letter-spacing: 0.78px;
       margin-top: 25px;
@@ -153,18 +151,7 @@
       height: 44px;
   
   
-      &:focus,
-       &:hover{
-       .employees__social{
-        background-color: $accent-color;
-       }
-       
-         .employees__svg{
-           fill: $main-background;
-        }
       
-        
-       }
       }
   
   
@@ -179,6 +166,19 @@
      background-color:rgba(255, 255, 255, 0.10); ;
     border-radius: 50%;
       justify-content: center;
+
+      &:focus,
+       &:hover{
+       
+        background-color: $accent-color;
+       
+       
+         .employees__svg{
+           fill: $main-background;
+        }
+      
+        
+       }
     }
   
     &__svg{
