@@ -5,17 +5,18 @@
     padding-bottom: 94px;
 
     &__title{
-      display: flex;
+      // display: flex;
      margin-top: 94px;
-      justify-content: center;
+      // justify-content: center;
       color:  $text-color;
-    text-align: center;
+    // text-align: center;
     font-family: "Roboto";
     font-size: 36px;
     margin-bottom: 50px;
     font-weight: 700;
     line-height: normal;
     letter-spacing: 1.08px;
+    @mixin flexbox{$warp:nowrap };
     }
     
     &__list{
@@ -42,13 +43,13 @@
     
     
     &__link{
-      display: flex;
       width: 170px;
       height: 92px;
-    
     padding: 8.7px 10.564px 10.677px 11px;
-    justify-content: center;
-    align-items: center;
+    // display: flex;
+    // justify-content: center;
+    // align-items: center;
+    @include flexbox($wrap: nowrap);
     
     
     &:hover,

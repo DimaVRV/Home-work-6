@@ -1,4 +1,4 @@
-@mixin flexbox($justify:center ,$align:center, $warp:wrap ,$firection:row, $gap:30px){
+@mixin flexbox ($justify:center ,$align:center, $wrap:wrap ,$direction:row){
     display: flex;
     justify-content: $justify;
     // justify-content: flex-start;
@@ -6,7 +6,7 @@
     // align-items: stretch;
     flex-wrap: $wrap;
     // flex-wrap: nowrap;
-    flex-direction: $firection;
+    flex-direction: $direction;
     // flex-direction: row;
-    gap: $gap;
+   
 }

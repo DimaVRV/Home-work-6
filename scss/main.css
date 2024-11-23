@@ -46,7 +46,10 @@ body {
 }
 .header__box {
   display: flex;
+  justify-content: flex-start;
   align-items: center;
+  flex-wrap: nowrap;
+  flex-direction: row;
 }
 .header__logo {
   color: #000;
@@ -67,7 +70,10 @@ body {
 }
 .header__link {
   display: flex;
+  justify-content: flex-start;
   align-items: center;
+  flex-wrap: nowrap;
+  flex-direction: row;
   color: #757575;
   font-size: 14px;
   font-weight: 500;
@@ -134,7 +140,6 @@ body {
   height: 4px;
   border-radius: 2px;
   background: #2196f3;
-  display: flex;
   position: absolute;
   bottom: -35px;
 }
@@ -314,10 +319,12 @@ body {
   margin-bottom: 16px;
 }
 .team__imegs {
-  display: flex;
   gap: 10px;
-  text-align: center;
+  display: flex;
   justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  flex-direction: row;
 }
 
 .imegs__item {
@@ -327,8 +334,10 @@ body {
 .imegs__link {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  flex-direction: row;
   width: 44px;
   height: 44px;
   border-radius: 50%;
@@ -402,10 +411,12 @@ body {
   margin-bottom: 20px;
 }
 .footer__employees {
-  display: flex;
   gap: 10px;
-  text-align: center;
+  display: flex;
   justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  flex-direction: row;
 }
 .footer__wrap {
   margin-left: auto;
@@ -447,6 +458,9 @@ body {
   border: transparent;
   display: flex;
   justify-content: center;
+  align-items: stretch;
+  flex-wrap: nowrap;
+  flex-direction: row;
   gap: 10px;
 }
 .footer__svg {
@@ -463,11 +477,13 @@ body {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   width: 44px;
   height: 44px;
-  display: flex;
-  align-items: center;
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
+  display: flex;
   justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  flex-direction: row;
 }
 .employees__social:focus, .employees__social:hover {
   background-color: #2196f3;
@@ -645,11 +661,8 @@ body {
   padding-bottom: 94px;
 }
 .client__title {
-  display: flex;
   margin-top: 94px;
-  justify-content: center;
   color: #212121;
-  text-align: center;
   font-family: "Roboto";
   font-size: 36px;
   margin-bottom: 50px;
@@ -672,12 +685,14 @@ body {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .client__link {
-  display: flex;
   width: 170px;
   height: 92px;
   padding: 8.7px 10.564px 10.677px 11px;
+  display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: nowrap;
+  flex-direction: row;
 }
 .client__link:hover, .client__link:focus {
   border: 1px solid #2196F3;
@@ -697,8 +712,10 @@ body {
 }
 .projeсt__list {
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  flex-direction: row;
   gap: 8px;
   margin-bottom: 50px;
 }
@@ -722,9 +739,12 @@ body {
 }
 
 .card__list {
-  display: flex;
   gap: 30px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
   flex-wrap: wrap;
+  flex-direction: row;
 }
 .card__item {
   flex-basis: calc((100% - 60px) / 3);

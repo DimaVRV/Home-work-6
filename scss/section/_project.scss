@@ -3,9 +3,10 @@
     padding-bottom: 94px;
 
     &__list {
-      display: flex;
-      align-items: center;
-      justify-content: center;
+      // display: flex;
+      // align-items: center;
+      // justify-content: center;
+      @include flexbox ( $wrap: nowrap);
       gap: 8px;
       margin-bottom: 50px;
     }
@@ -35,9 +36,10 @@
 .card{
 
   &__list {
-    display: flex;
     gap: 30px;
-    flex-wrap: wrap;
+    // display: flex;
+    // flex-wrap: wrap;
+    @include flexbox($justify: flex-start);
 
   }
 
