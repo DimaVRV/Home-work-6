@@ -22,7 +22,7 @@ padding-top: 94px;
     font-weight: 700;
     line-height: normal;
     letter-spacing: 1.08px;
-    @include flexbox($warp:nowrap);
+    @include flexbox($wrap:nowrap);
 
     }
     
@@ -54,7 +54,7 @@ padding-top: 94px;
     
     
     &__link{
-      @include flexbox($warp:nowrap);
+      @include flexbox($wrap:nowrap);
       padding: 16px 59px;
     // display: flex;
     // justify-content: center;
