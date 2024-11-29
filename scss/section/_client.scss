@@ -2,13 +2,7 @@
 
 
 .client{
-display: none;
-@media screen and (min-width: 768px) {
-    display: flex;
-}
-@media screen and (min-width: 1200px) {
-    display: flex;
-}
+
 padding-top: 94px;
     padding-bottom: 94px;
     &__title{
@@ -34,11 +28,14 @@ padding-top: 94px;
     }
     
     &__item{
-    
+      
+
+  
       transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1)  ;
       border-radius: 4px;
       border: 1px solid $img-fill;
       width: 100%;
+      flex-basis: calc((100% - 30px) / 2);
       @media screen and (min-width: 768px) {
       flex-basis: calc((100% - 60px) / 3);
     }
@@ -54,14 +51,15 @@ padding-top: 94px;
     
     
     &__link{
+      height: 92px;
       @include flexbox($wrap:nowrap);
-      padding: 16px 59px;
+  
     // display: flex;
     // justify-content: center;
     // align-items: center;
    
     @media screen and (min-width: 768px) {
-    
+      padding: 16px 32px;
     }
     @media screen and (min-width: 1200px) {
       padding: 8.7px 10.564px 10.677px 11px;

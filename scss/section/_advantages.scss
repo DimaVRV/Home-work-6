@@ -5,7 +5,7 @@
 
 .advantages {
     padding-top: 94px;
-
+    padding-bottom: 60px;
 
     &__list {
       display: flex;
@@ -62,7 +62,7 @@
       background-image: url(../image/time.jpg);
     }
     &__item:nth-child(3)::before {
-      background-image: url(../image/rist.jpg);
+      background-image: url(../../image/rist.png);
     }
     &__item:nth-child(4)::before {
       background-image: url(../image/kosmonavt.jpg);

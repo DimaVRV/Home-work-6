@@ -274,6 +274,7 @@ body {
 
 .advantages {
   padding-top: 94px;
+  padding-bottom: 60px;
 }
 .advantages__list {
   display: flex;
@@ -344,7 +345,7 @@ body {
   background-image: url(../image/time.jpg);
 }
 .advantages__item:nth-child(3)::before {
-  background-image: url(../image/rist.jpg);
+  background-image: url(../../image/rist.png);
 }
 .advantages__item:nth-child(4)::before {
   background-image: url(../image/kosmonavt.jpg);
@@ -379,7 +380,7 @@ body {
 
 .work {
   display: none;
-  padding-top: 94px;
+  padding-top: 34px;
   padding-bottom: 94px;
 }
 @media screen and (min-width: 1200px) {
@@ -526,19 +527,8 @@ body {
 }
 
 .client {
-  display: none;
   padding-top: 94px;
   padding-bottom: 94px;
-}
-@media screen and (min-width: 768px) {
-  .client {
-    display: flex;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .client {
-    display: flex;
-  }
 }
 .client__title {
   color: #212121;
@@ -566,6 +556,7 @@ body {
   border-radius: 4px;
   border: 1px solid #AFB1B8;
   width: 100%;
+  flex-basis: calc((100% - 30px) / 2);
 }
 @media screen and (min-width: 768px) {
   .client__item {
@@ -578,12 +569,17 @@ body {
   }
 }
 .client__link {
+  height: 92px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: nowrap;
   flex-direction: row;
-  padding: 16px 59px;
+}
+@media screen and (min-width: 768px) {
+  .client__link {
+    padding: 16px 32px;
+  }
 }
 @media screen and (min-width: 1200px) {
   .client__link {
@@ -746,7 +742,7 @@ body {
 }
 .footer__form {
   display: flex;
-  gap: 12px;
+  gap: 20px;
   flex-wrap: wrap;
   width: 100%;
 }
@@ -758,6 +754,7 @@ body {
 @media screen and (min-width: 1200px) {
   .footer__form {
     flex-wrap: nowrap;
+    gap: 12px;
   }
 }
 .footer__input {
@@ -815,7 +812,7 @@ body {
 .footer__svg {
   width: 24px;
   height: 24px;
-  fill: #AFB1B8;
+  fill: #fff;
 }
 
 .employees__link {
