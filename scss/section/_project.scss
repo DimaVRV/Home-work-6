@@ -3,12 +3,24 @@
     padding-bottom: 94px;
 
     &__list {
+     width: 326px;
+     padding-right: 0;
       // display: flex;
       // align-items: center;
       // justify-content: center;
+     
       @include flexbox ( $wrap: nowrap);
       gap: 8px;
       margin-bottom: 50px;
+      @media screen and (min-width: 480px) {
+        justify-content: flex-start;
+        flex-wrap: wrap;
+      }
+      @media screen and (min-width: 768px) {
+      flex-wrap: nowrap;
+      justify-content: center;
+      width: 100%;
+      }
     }
     
     &__button {
@@ -31,7 +43,6 @@
       box-shadow: 0px 3px 1px 0px rgba(0, 0, 0, 0.10), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 2px 2px 0px rgba(0, 0, 0, 0.12);
     }
   }
-  
 
 .card{
 
@@ -45,11 +56,19 @@
 
 
   &__item {
-    flex-basis: calc((100% - 60px) / 3);
+    width: 100%;
+    
     border: 1px solid #eee;
     background: $main-background;
     transform: translateY(-20px);
     transition: box-shadow  250ms cubic-bezier(0.4, 0, 0.2, 1);
+    @media screen and (min-width: 768px) {
+      flex-basis: calc((100% - 30px) / 2);
+    }
+    @media screen and (min-width: 1200px) {
+      flex-basis: calc((100% - 60px) / 3);
+    }
+
 
     &:hover {
     
