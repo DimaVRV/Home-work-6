@@ -235,6 +235,10 @@ font-size: 40px;
 font-weight: 500;
 line-height: normal;
 letter-spacing: 0.8px;
+&:nth-child(2){
+  margin-bottom: 32px;
+  margin-top: 35px;
+}
 &:hover{
   color: $accent-color;
 
@@ -249,7 +253,9 @@ letter-spacing: 0.8px;
 
 
 
-
+    &__list2{
+      margin-top: 302px;
+    }
 
     &__item2:nth-child(1){
       color:$accent-color;
@@ -259,6 +265,7 @@ font-size: 40px;
 font-weight: 500;
 line-height: normal;
 letter-spacing: 0.8px;
+margin-bottom: 32px;
     }
     &__item2:nth-child(2){
       color: $additional-color;
@@ -288,7 +295,8 @@ height: 40px;
  &__list3{
   display: flex;
   gap: 10px;
-  margin-top: 302px;
+  margin-top: 64px;
+  flex-wrap: wrap;
  }
  &__item3{
   color: $accent-color;

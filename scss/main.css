@@ -235,6 +235,10 @@ body {
   line-height: normal;
   letter-spacing: 0.8px;
 }
+.phone__item1:nth-child(2) {
+  margin-bottom: 32px;
+  margin-top: 35px;
+}
 .phone__item1:hover {
   color: #2196f3;
   font-size: 40px;
@@ -242,12 +246,16 @@ body {
   line-height: normal;
   letter-spacing: 0.8px;
 }
+.phone__list2 {
+  margin-top: 302px;
+}
 .phone__item2:nth-child(1) {
   color: #2196f3;
   font-size: 40px;
   font-weight: 500;
   line-height: normal;
   letter-spacing: 0.8px;
+  margin-bottom: 32px;
 }
 .phone__item2:nth-child(2) {
   color: #757575;
@@ -273,7 +281,8 @@ body {
 .phone__list3 {
   display: flex;
   gap: 10px;
-  margin-top: 302px;
+  margin-top: 64px;
+  flex-wrap: wrap;
 }
 .phone__item3 {
   color: #2196f3;
@@ -972,6 +981,12 @@ body {
   padding: 40px;
   position: relative;
 }
+@media screen and (min-width: 1200px) {
+  .modal {
+    width: 528px;
+    height: 581px;
+  }
+}
 .modal__title {
   color: #212121;
   text-align: center;
@@ -980,6 +995,11 @@ body {
   line-height: 30px;
   letter-spacing: 0.6px;
   margin-bottom: 12px;
+}
+@media screen and (min-width: 1200px) {
+  .modal__title {
+    line-height: normal;
+  }
 }
 .modal__sigma {
   color: #757575;
@@ -1007,7 +1027,7 @@ body {
   fill: #2196f3;
 }
 .modal__input {
-  width: 370px;
+  width: 100%;
   height: 40px;
   padding-left: 30px;
   border-radius: 4px;
@@ -1022,7 +1042,7 @@ body {
   top: 11px;
 }
 .modal__coment {
-  width: 370px;
+  width: 100%;
   height: 120px;
   border-radius: 4px;
   border: 1px solid rgba(33, 33, 33, 0.2);
@@ -1043,6 +1063,13 @@ body {
   line-height: normal;
   letter-spacing: 0.36px;
 }
+@media screen and (min-width: 1200px) {
+  .modal__span {
+    font-size: 14px;
+    line-height: 24px; /* 171.429% */
+    letter-spacing: 0.42px;
+  }
+}
 .modal__link {
   color: #2196f3;
   font-size: 12px;
@@ -1050,6 +1077,14 @@ body {
   line-height: normal;
   letter-spacing: 0.36px;
   text-decoration-line: underline;
+  margin-left: 2px;
+}
+@media screen and (min-width: 1200px) {
+  .modal__link {
+    font-size: 14px;
+    line-height: 24px; /* 171.429% */
+    letter-spacing: 0.42px;
+  }
 }
 .modal__button {
   color: #fff;
