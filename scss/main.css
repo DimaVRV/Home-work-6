@@ -219,6 +219,7 @@ body {
 }
 
 .phone {
+  padding: 48px 0 48px 48px;
   z-index: 1;
   position: fixed;
   top: 0;
@@ -227,23 +228,72 @@ body {
   height: 100vh;
   background-color: #fff;
 }
-.phone__phone__item1 {
+.phone__item1 {
   color: #212121;
   font-size: 40px;
   font-weight: 500;
   line-height: normal;
   letter-spacing: 0.8px;
 }
+.phone__item1:hover {
+  color: #2196f3;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.8px;
+}
+.phone__item2:nth-child(1) {
+  color: #2196f3;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.8px;
+}
+.phone__item2:nth-child(2) {
+  color: #757575;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.48px;
+}
 .phone__button {
+  position: absolute;
   background-color: transparent;
   border: none;
   width: 40px;
   height: 40px;
+  top: 20px;
+  right: 20px;
 }
 .phone__svg {
   fill: #212121;
   width: 40px;
   height: 40px;
+}
+.phone__list3 {
+  display: flex;
+  gap: 10px;
+  margin-top: 302px;
+}
+.phone__item3 {
+  color: #2196f3;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22px; /* 122.222% */
+  letter-spacing: 0.36px;
+  display: flex;
+}
+.phone__item3:not(:last-child) {
+  margin-right: 10px;
+}
+.phone__item3:not(:last-child)::after {
+  content: "";
+  margin-left: 10px;
+  background: rgba(33, 33, 33, 0.2);
+  width: 1px;
+  height: 22px;
+  display: flex;
 }
 
 .hero {
