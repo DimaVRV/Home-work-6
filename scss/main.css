@@ -228,8 +228,8 @@ body {
   height: 100vh;
   background-color: #fff;
 }
-.phone__item1 {
-  color: #212121;
+.phone__item1:hover .phone__link {
+  color: #2196f3;
   font-size: 40px;
   font-weight: 500;
   line-height: normal;
@@ -239,8 +239,8 @@ body {
   margin-bottom: 32px;
   margin-top: 35px;
 }
-.phone__item1:hover {
-  color: #2196f3;
+.phone__link {
+  color: #212121;
   font-size: 40px;
   font-weight: 500;
   line-height: normal;

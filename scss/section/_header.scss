@@ -230,28 +230,34 @@
     background-color:$main-background ;
 
     &__item1{
-      color: $text-color;
-font-size: 40px;
-font-weight: 500;
-line-height: normal;
-letter-spacing: 0.8px;
+      &:hover{
+        .phone__link{
+          color: $accent-color;
+      
+      
+          font-size: 40px;
+          
+          font-weight: 500;
+          line-height: normal;
+          letter-spacing: 0.8px;
+        }
+        
+      }
 &:nth-child(2){
   margin-bottom: 32px;
   margin-top: 35px;
 }
-&:hover{
-  color: $accent-color;
 
-
-font-size: 40px;
-
-font-weight: 500;
-line-height: normal;
-letter-spacing: 0.8px;
-}
     }
 
-
+&__link{
+  color: $text-color;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.8px;
+  
+}
 
     &__list2{
       margin-top: 302px;
