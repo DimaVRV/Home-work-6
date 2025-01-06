@@ -143,25 +143,48 @@
           <ul class="work__list">
             <li class="work__item">
               <div class="work__box">
-                <img
-                  src="./image/comuter.jpg"
-                  alt="Комп'ютер"
-                  class="work__img"
-                />
+                <picture>
+                  <source
+                    srcset="
+                      ./img/desktop/desktop-comp@2x.webp 2x,
+                      ./img/desktop/desktop-comp@1x.webp 1x
+                    "
+                    media="(min-width: 1200px)"
+                  />
+                  <img src="./img/comp.jpg" alt="comp" class="work-images" />
+                </picture>
                 <p class="work__desk">Десктопні додатки</p>
               </div>
             </li>
 
             <li class="work__item">
               <div class="work__box">
-                <img src="./image/tel.jpg" alt="Телефон" class="work__img" />
+                <picture>
+                  <source
+                    srcset="
+                      ./img/desktop/desktop-mobile@2x.webp 2x,
+                      ./img/desktop/desktop-mobile@1x.webp 1x
+                    "
+                    media="(min-width: 1200px)"
+                  />
+                  <img src="./img/tel.jpg" alt="comp" class="work-images" />
+                </picture>
 
                 <p class="work__desk">Мобільні додатки</p>
               </div>
             </li>
             <li class="work__item">
               <div class="work__box">
-                <img src="./image/tablet.jpg" alt="Планшет" class="work__img" />
+                <picture>
+                  <source
+                    srcset="
+                      ./img/desktop/desktop-tablet@2x.webp 2x,
+                      ./img/desktop/desktop-tablet@1x.webp 1x
+                    "
+                    media="(min-width: 1200px)"
+                  />
+                  <img src="./img/tablet.jpg" alt="comp" class="work-images" />
+                </picture>
 
                 <p class="work__desk">Дизайнерські рішення</p>
               </div>
@@ -174,11 +197,30 @@
           <h2 class="team__title">Наша команда</h2>
           <ul class="team__list">
             <li class="team__item">
-              <img
-                src="./image/igor.jpg"
-                alt="Чоловік з комп'ютерном в бордовій сорочці"
-                class="team__img"
-              />
+              <picture>
+                <source
+                  srcset="
+                    ./img/desktop/igor-decstop@1x.webp 1x,
+                    ./img/desktop/igor-decstop@2x.webp 2x
+                  "
+                  media="(min-width: 1200px)"
+                />
+                <source
+                  srcset="
+                    ./img/tablet/igor-tablet@1x.webp 1x,
+                    ./img/tablet/igor-tablet@2x.webp 2x
+                  "
+                  media="(min-width: 768px)"
+                />
+                <source
+                  srcset="
+                    ./img/mobila/igor-mobile@1x.webp 1x,
+                    ./img/mobila/igor-mobile@2x.webp 2x
+                  "
+                  media="(max-width: 767px)"
+                />
+                <img src="./img/igor.jpg" alt="igor" class="team__img" />
+              </picture>
               <div class="team__box">
                 <h3 class="team__caption">Ігор Дем'яненко</h3>
                 <p class="team__desc">Product Designer</p>
@@ -219,11 +261,30 @@
               </div>
             </li>
             <li class="team__item">
-              <img
-                src="./image/olga.jpg"
-                alt="Жінка в чорному піджаку"
-                class="team__img"
-              />
+              <picture>
+                <source
+                  srcset="
+                    ./img/desktop/olga-decstop@1x.webp 1x,
+                    ./img/desktop/olga-decstop@2x.webp 2x
+                  "
+                  media="(min-width: 1200px)"
+                />
+                <source
+                  srcset="
+                    ./img/tablet/olga-tablet@1x.webp 1x,
+                    ./img/tablet/olga-tablet@2x.webp 2x
+                  "
+                  media="(min-width: 768px)"
+                />
+                <source
+                  srcset="
+                    ./img/mobila/olga-mobile@1x.webp 1x,
+                    ./img/mobila/olga-mobile@2x.webp 2x
+                  "
+                  media="(max-width: 767px)"
+                />
+                <img src="./img/olha.jpg" alt="olha" class="team__img" />
+              </picture>
 
               <div class="team__box">
                 <h3 class="team__caption">Ольга Рєпіна</h3>
@@ -265,11 +326,30 @@
               </div>
             </li>
             <li class="team__item">
-              <img
-                src="./image/mukola.jpg"
-                alt="Чоловік в світлій сорочні дивиться у вікно"
-                class="team__img"
-              />
+              <picture>
+                <source
+                  srcset="
+                    ./img/desktop/mukola-desktop@1x.jpg 1x,
+                    ./img/desktop/mukola-desktop@2x.jpg 2x
+                  "
+                  media="(min-width:1200px)"
+                />
+                <source
+                  srcset="
+                    ./img/tablet/mukola-tablet@1x.jpg 1x,
+                    ./img/tablet/mukola-tablet@2x.jpg 2x
+                  "
+                  media="(min-width:768px)"
+                />
+                <source
+                  srcset="
+                    ./img/mobila/mukola-mobile@1x.jpg 1x,
+                    ./img/mobila/mukola-mobile@2x.jpg 2x
+                  "
+                  media="(max-width:767px)"
+                />
+                <img src="./img/mukola.jpg" alt="mukola" class="team__img" />
+              </picture>
 
               <div class="team__box">
                 <h3 class="team__caption">Микола Тарасов</h3>
@@ -311,11 +391,31 @@
               </div>
             </li>
             <li class="team__item">
-              <img
-                src="./image/mixail.jpg"
-                alt="Чоловік в чорній футболці в оклярах з бородою"
-                class="team__img"
-              />
+              <picture>
+                <source
+                  srcset="
+                    ./img/desktop/deskop-mihaylo@1x.webp 1x,
+                    ./img/desktop/deskop-mihaylo@2x.webp 2x
+                  "
+                  media="(min-width: 1200px)"
+                />
+                <source
+                  srcset="
+                    ./img/tablet/tablet-mihaylo@1x.webp 1x,
+                    ./img/tablet/tablet-mihaylo@2x.webp 2x
+                  "
+                  media="(min-width: 768px)"
+                />
+                <source
+                  srcset="
+                    ./img/mobila/mobile-mihaylo@1x.webp 1x,
+                    ./img/mobila/mobile-mihaylo@2x.webp 2x
+                  "
+                  media="(max-width: 767px)"
+                />
+                <img src="./img/michael.jpg" alt="michael" class="team__img" />
+              </picture>
+
 
               <div class="team__box">
                 <h3 class="team__caption">Михайло Єрмаков</h3>
